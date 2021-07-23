@@ -125,6 +125,9 @@ footer{
     .navbar-collapse{
         display: flex;
     }   
+	#bars{
+		height:450px
+	}
 }
 img{
     height: 20px;
