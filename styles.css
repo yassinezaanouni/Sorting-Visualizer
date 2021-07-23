@@ -1,0 +1,133 @@
+
+:root{
+    --primary-color:#F9FAFB;
+    --secondary-color:black;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#bars{
+    text-align: center;
+    margin: auto;
+    margin-top: 1.5%;
+    width: 80%; 
+    height: 600px;   
+}
+canvas {
+    margin: auto;
+}
+
+select{
+    background-color: rgb(246, 246, 246);
+    border:0px;
+    outline:0px;
+    margin-right: 15px;
+}
+#randomize{
+    border:0px;
+    background-color: rgb(221, 237, 250);
+    color: rgb(136, 134, 134);
+    margin-right:15px;
+
+}
+#sort{
+    border:0px;
+    margin-right:15px;
+    width:150px;
+}
+
+.navbar{
+   position: sticky;
+   top: 0;
+   background-color: var(--primary-color);
+
+}
+
+#div_sort, #xs{
+	text-align: center;
+    margin: 15px;
+}
+
+#slider{
+    display : block;
+    background:violet;
+}
+#x1,#x2{
+    vertical-align : middle;
+    display : inline-block;
+    color: rgb(135, 199, 255);
+    opacity: .5;
+    margin: 5px;
+}
+#slider{
+    vertical-align : middle;
+    display : inline-block;
+
+}
+.info{
+    text-align: left;
+    margin: auto;  
+    width: 80%;
+    letter-spacing: .93px;
+}
+#left_info{
+    vertical-align : middle;
+    display : inline-block;
+    width: 60%;
+    font-weight: 600;
+}
+h1, p{
+    text-align: left;
+}
+
+.vertical {
+    vertical-align : middle;
+    display : inline-block;
+    border-left: .1px solid grey;
+    opacity: .5;
+    height: 200px;
+    position:absolute;
+    margin: 20px;
+    margin-top: 40px;
+
+}
+#O{
+    vertical-align : middle;
+    display : inline-block;
+    width: 20%;
+    border-color:green;
+    margin: 3rem;
+    font-weight: 500;
+
+}
+a{
+    font-size: 19px;
+    color: rgb(75, 156, 228);
+}
+.everything {
+    position: relative;
+    min-height: 120vh;
+}
+
+footer{
+    position: absolute;
+    top:100%;
+    bottom:0;
+    width:100%;
+}
+#last_div{
+    background-color: var(--primary-color);
+}
+
+@media (max-width: 575.98px) {
+    .navbar-collapse{
+        display: flex;
+    }   
+}
+img{
+    height: 20px;
+    width: 20px;
+    opacity: .7;
+}

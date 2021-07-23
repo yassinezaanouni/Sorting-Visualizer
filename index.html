@@ -1,0 +1,66 @@
+<!--TODO dark mode, translation--> 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Visualizer</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link href="styles.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<script src="libraries/p5.js"></script>
+		<!-- <script src="libraries/p5.sound.js"></script> -->
+		<script src="sketch.js"></script>
+		<script src="generateArray.js"></script>
+		<script src="show.js"></script>
+		<script src="bubbleSort.js"></script>
+		<script src="selectionSort.js"></script>
+		<script src="insertionSort.js"></script>
+		<script src="mergeSort.js"></script>
+		<script src="quickSort.js"></script> 
+		</script>
+	</head>
+	<body>
+		<div class="everything">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="https://yassinezn.github.io/Sorting-Visualizer/">Sort Visualizer</a>
+			</div>
+				<div class="navbar-collapse" id="navbarNavDarkDropdown">
+					<select id="algorithm">
+						<option selected disabled>Sort Algorithm</option>
+						<option value="Bubble Sort">Bubble Sort</option>
+						<option value="Selection Sort">Selection Sort</option>
+						<option value="Insertion Sort">Insertion Sort</option>
+						<option value="Merge Sort">Merge Sort</option>
+					</select>
+					<label for="size">Size</label>
+				<select id="size">
+					<option>10</option>
+					<option>15</option>
+					<option>20</option>
+					<option>25</option>
+					<option selected>30</option>
+					<option>40</option>
+					<option>50</option>
+				</select>
+				<button id="randomize">Randomize</button>
+
+				<!--<label for="" style="margin-right: 3px;">Dark</label>
+				<label for="">Mode</label>-->
+			</div>
+		  </nav>
+		  
+		<div id='bars'>
+		</div>
+		<div id='container'></div>
+	
+		<footer>
+			<div id="last_div" class="container-fluid">
+				Designed and built with  <img src="heart.png">  by <a class="navbar-brand">Yassine Zaanouni</a>
+				
+			</div>	
+			</footer>
+		</div>
+	</body>
+</html>
