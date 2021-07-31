@@ -1,5 +1,5 @@
 # Sorting Visualizer
-Welcome to Sorting Visualizer! I built this application because I wanted to visualize sorting algorithms in action. I hope that you enjoy playing around with this visualization tool just as much as I enjoyed building it. You can access it here: https://yassinezn.github.io/sort-visualizer/
+Welcome to Sorting Visualizer! I built this application because I wanted to visualize sorting algorithms in action. I hope that you enjoy playing around with this visualization tool just as much as I enjoyed building it. You can access it here: https://yassinezn.github.io/Sorting-Visualizer/
 
 ## Meet the Algorithms
 
