@@ -10,6 +10,7 @@ This application supports the following algorithms:
 **Selection Sort**: is an in-place comparison sorting algorithm. It has an O(n2) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort
 
 **Insertion Sort**: is a simple sorting algorithm that builds the final sorted array (or list) one item at a time
+
 **Merge Sort**:  is an efficient, stable sorting algorith that makes use of the divide and conquer strategy!
 
 
