@@ -1,0 +1,77 @@
+.tuto{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+    background-color: #F9FAFD;
+    width: 750px;
+    max-width: 80%;
+}
+
+.tuto.active{
+    /* Scale for transition*/
+    transform: translate(-50%, -50%) scale(1);
+
+}
+.tuto-header{
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.tuto-header .title{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.tuto-header .close-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+.tuto-body{
+    padding: 15px 15px;
+}
+#overlay{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(215, 233, 255, 0.3);
+    pointer-events: none;
+  
+}
+#overlay.active{
+    opacity: 1;
+    pointer-events: all;
+    backdrop-filter: blur(4px);
+}
+
+#algo-img{
+    width: 329px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+#rand-img{
+    width: 87px;
+    height: 25px;
+}
+#speed-img{
+    width: 87px;
+    height: 13px;
+}
