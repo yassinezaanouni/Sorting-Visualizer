@@ -16,4 +16,13 @@ This application supports the following algorithms:
 ![2021-07-31 23-37-02](https://user-images.githubusercontent.com/17102478/128741976-3a4db0e5-3af9-4c13-b2c9-a53aa58ed02c.gif)
 
 
+## How to visualize the Algorithms
+1- Select an Algorithm from the drop-down menu
+2- Change the desired size
+3- You can randomize the data
+4- Click the sort button
+
+## Demonstration on Youtube
+https://www.youtube.com/watch?v=5YLKOjK1-bU&t=4s
+
 
