@@ -13,8 +13,7 @@ This application supports the following algorithms:
 
 **Merge Sort**:  is an efficient, stable sorting algorith that makes use of the divide and conquer strategy!
 
-
-[Uploading 2021-07-31 23-37-02.gif…]()
+![2021-07-31 23-37-02](https://user-images.githubusercontent.com/17102478/128741976-3a4db0e5-3af9-4c13-b2c9-a53aa58ed02c.gif)
 
 
 
