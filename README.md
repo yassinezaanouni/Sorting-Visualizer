@@ -17,10 +17,10 @@ This application supports the following algorithms:
 
 
 ## How to visualize the Algorithms
-*1- Select an Algorithm from the drop-down menu
-*2- Change the desired size
-*3- You can randomize the data
-*4- Click the sort button
+**1- Select an Algorithm from the drop-down menu
+**2- Change the desired size
+**3- You can randomize the data
+**4- Click the sort button
 
 ## Demonstration on Youtube
 https://www.youtube.com/watch?v=5YLKOjK1-bU&t=4s
